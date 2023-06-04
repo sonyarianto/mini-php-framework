@@ -25,6 +25,17 @@ All routes defined on `src/routes.php`.
 5. That's it, now to to your browser at access to `http://localhost:3000`
 6. Extend it for your further needs.
 
+## What do you mean extend?
+
+- For example if you want to add database connection capabilities, just use PDO or any other method like ORM and others.
+- For example if you want to add cache capabilities, just use memcache, redis or any other techniques.
+- For example if you want to add user session capabilitites, just use PHP session or any other techniques.
+- Just use your imagination to extend and just plug and play other component and adjust accordingly.
+
+## Issues or ideas or contribute?
+
+Just submit via GitHub issue or submit your PR. We are happy to review.
+
 ## License
 
 MIT
