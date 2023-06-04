@@ -42,7 +42,7 @@ All routes defined on `src/routes.php`.
 - `compiled_templates` directory will act as a cache for the Blade template.
 - Look into `src/Config.php`, that's contains some config that used in this framework, you can add or adjust based on your needs.
 
-## Issues or ideas or contribute?
+## Issues, ideas or contribute?
 
 Just submit via GitHub issue or submit your PR. We are happy to review.
 
