@@ -31,6 +31,16 @@ All routes defined on `src/routes.php`.
 - For example if you want to add cache capabilities, just use memcache, redis or any other techniques.
 - For example if you want to add user session capabilitites, just use PHP session or any other techniques.
 - Just use your imagination to extend and just plug and play other component and adjust accordingly.
+- Or even you can refactor the framework, if good then do PR haha.
+
+## How to start into the code?
+
+- Look into `public/index.php`, that's the starting point when we run this framework.
+- Look into `composer.json`, that's contains the library needed for this framework.
+- Look into `src` directory, there are files there that actually important for this framework. Included from `public/index.php`.
+- Look into `templates`, that's the location of Blade template files. Blade template is usually in `xxxx.blade.php` naming format.
+- `compiled_templates` directory will act as a cache for the Blade template.
+- Look into `src/Config.php`, that's contains some config that used in this framework, you can add or adjust based on your needs.
 
 ## Issues or ideas or contribute?
 
